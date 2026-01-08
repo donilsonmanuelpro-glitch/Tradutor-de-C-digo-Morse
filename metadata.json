@@ -1,0 +1,5 @@
+{
+  "name": "Tradutor de Código Morse",
+  "description": "Um tradutor avançado de Código Morse para Português e vice-versa, com reprodução de áudio, feedback visual e inteligência artificial para explicações contextuais.",
+  "requestFramePermissions": []
+}
