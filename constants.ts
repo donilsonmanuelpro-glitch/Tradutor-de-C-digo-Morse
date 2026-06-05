@@ -15,12 +15,14 @@ export const MORSE_DICT: MorseMapping = {
   '"': '.-..-.', '$': '...-..-', '@': '.--.-.', ' ': '/'
 };
 
-// Portuguese accents mapping to basic Morse or specific extensions
+// Portuguese accents mapping to basic Morse equivalents
 export const PORTUGUESE_MAP: MorseMapping = {
-  'Á': '.-', 'À': '.-', 'Ã': '.-', 'Â': '.-',
-  'É': '.', 'Ê': '.', 'Í': '..',
-  'Ó': '---', 'Ô': '---', 'Õ': '---',
-  'Ú': '..-', 'Ç': '-.-..'
+  'Á': 'A', 'À': 'A', 'Ã': 'A', 'Â': 'A',
+  'É': 'E', 'Ê': 'E',
+  'Í': 'I',
+  'Ó': 'O', 'Ô': 'O', 'Õ': 'O',
+  'Ú': 'U', 'Ü': 'U',
+  'Ç': 'C'
 };
 
 export const REVERSE_MORSE_DICT: MorseMapping = Object.entries(MORSE_DICT).reduce(

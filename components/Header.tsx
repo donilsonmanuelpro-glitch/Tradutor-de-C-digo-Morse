@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <span className="text-blue-400 text-sm font-semibold tracking-wider uppercase">Tradutor Profissional</span>
       </div>
       <h1 className="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 mb-2">
-        Tradutor de Código Morse
+        Doni Code Translator
       </h1>
       <p className="text-slate-400 max-w-lg mx-auto leading-relaxed">
         Comunicação atemporal com o poder da tecnologia moderna. Converta texto em sinais de forma instantânea.

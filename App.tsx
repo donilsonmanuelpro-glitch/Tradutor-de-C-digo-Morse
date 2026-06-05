@@ -203,7 +203,7 @@ const App: React.FC = () => {
         <footer className="pt-12 border-t border-slate-800">
           <div className="flex flex-col items-center justify-center space-y-4">
             <div className="text-center">
-              <p className="text-slate-400 font-medium mb-1">Tradutor de Código Morse</p>
+              <p className="text-slate-400 font-medium mb-1">Doni Code Translator</p>
               <p className="text-slate-600 text-sm">Desenvolvido com precisão para converter ideias em sinais.</p>
             </div>
             
